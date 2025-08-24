@@ -2,8 +2,8 @@
 
 using namespace std;
 
-int primes[100], cnt;
-bool vis[100];
+int primes[10005], cnt;
+bool vis[10005];
 void euler_sieve(int n) {
     for (int i = 2; i <= n; i++) {
         if (!vis[i]) {
